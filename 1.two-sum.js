@@ -24,4 +24,3 @@ var twoSum = function(nums, target) {
     return null;
 };
 // @lc code=end
-
