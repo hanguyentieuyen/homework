@@ -1,5 +1,6 @@
-// Input : '{)}'
-
+// Input : '{)}' => Outout: false
+// Input : '[(){[]()}]'
+// Ago: stack 
 function validParetheses(a) {
   const stack = [];
 
@@ -23,5 +24,5 @@ function validParetheses(a) {
   return stack.length === 0;
 }
 
-const test = validParetheses('{()}')
+const test = validParetheses('[(){[]()}]')
 console.log(test)
